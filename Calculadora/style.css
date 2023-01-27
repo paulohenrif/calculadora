@@ -1,0 +1,62 @@
+body {
+    background-image: linear-gradient(to right, #F61067, #5E239D, #9B9ECE);
+    color: white; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+h1 {
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+}
+h2 {
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+}
+section {
+    background: white;
+    color: black;
+    width: 444px;
+    height: 100px;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin: auto;
+    text-align: auto;
+    box-shadow: 5px 5px 10px black;
+}
+input {
+    background: white;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: rgba(4, 149, 206, 0.452);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
+}
+section > :hover {
+    background-image: linear-gradient(to right, #EC0868, #FB4B4E);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px black;
+}
+div {
+    width: auto;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: auto;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+}
+footer {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+}
+footer > a {
+    color: #F1E9DA;
+    text-decoration: none;
+}
+footer > a:hover {
+    text-decoration: underline;
+    color: red;
+}
